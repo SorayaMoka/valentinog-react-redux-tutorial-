@@ -26,7 +26,7 @@ class ConnectedForm extends Component {
         event.preventDefault();
         const { title } = this.state;
         this.props.addArticle({ title });
-        this.setState({title: ""})
+        this.setState({title: ""});
     }
 
     render() {
